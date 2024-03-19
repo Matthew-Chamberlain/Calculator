@@ -23,11 +23,13 @@ body{
     border: 2px solid black;
     border-radius: 10px;
     width: 95%;
-    height: 10%;
+    height: 12%;
     margin-top: 15px;
-    direction: rtl;
+    text-align: right;
     box-sizing: border-box;
-    padding: 12px 5px 5px;
+    padding: 5px 5px 0px 0px;
+    display:flex;
+    flex-direction: column;
 }
 
 .buttonContainer{
@@ -38,6 +40,18 @@ body{
     margin-top: 5px;
     margin-bottom: 5px;
     display: flex;
+}
+p{
+    margin: 0;
+}
+
+.expression{
+    height: 14px;
+    font-size: 15px;
+}
+
+.currentNum{
+    font-size: 20px;
 }
 
 .numbers{
